@@ -1,0 +1,55 @@
+* {
+  font-family: Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background-color: rgb(39, 47, 53);
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-container {
+  padding: 20px;
+  border: 0.5px solid darkslategrey;
+  color: gainsboro;
+  font-weight: 200;
+}
+
+.units-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.unit-container {
+  width: 200px;
+  margin: 5px;
+}
+
+input {
+  width: 178px;
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 5px 5px 0 0;
+  background-color: transparent;
+  color: gainsboro;
+  border: 0.5px solid darkslategrey;
+}
+
+select {
+  width: 200px;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 0 0 5px 5px;
+  border: 0.5px solid darkslategrey;
+  background-color: darkslategrey;
+  color: lightgray;
+}
+
+select:focus,
+input:focus {
+  outline: none;
+}
